@@ -1,0 +1,73 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #000000;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+.mdbutton {
+  background-color: #0093ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  transition-duration: 0.2s;
+}
+.mdbutton:hover {
+  box-shadow: 0px 5px 10px #888888;
+}
+.mdbutton:active {
+  box-shadow: 0px 5px 10px #888888;
+  background-color: #6bc0ff;
+}
+.rdbutton {
+  background-color: #ff0000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 100px;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  transition-duration: 0.2s;
+}
+.rdbutton:hover {
+  box-shadow: 0px 5px 10px #888888;
+}
+.rdbutton:active {
+  box-shadow: 0px 5px 10px #888888;
+  background-color: #ff4f4f;
+}
+.ccbutton {
+  background-color: #3c2cff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 100px;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  transition-duration: 0.2s;
+  box-shadow: 0px 3px 5px #888888;
+}
+.ccbutton:hover {
+  box-shadow: 0px 5px 10px #888888;
+}
+.ccbutton:active {
+  box-shadow: 0px 5px 10px #888888;
+  background-color: #7900a5;
+}
